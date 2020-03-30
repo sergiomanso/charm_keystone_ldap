@@ -1,14 +1,18 @@
 options:
-  string-option:
+  ldap-url:
     type: string
-    default: "Default Value"
+    default: 
     description: "A short description of the configuration option"
-  boolean-option:
-    type: boolean
-    default: False
+  ldap-user:
+    type: string
+    default: 
     description: "A short description of the configuration option"
-  int-option:
-    type: int
-    default: 9001
+  ldap-password:
+    type: string
+    default: 
+    description: "A short description of the configuration option"
+  ldap-suffix:
+    type: string
+    default: 
     description: "A short description of the configuration option"
 
