@@ -12,3 +12,5 @@ provides:
   keystone-backend:
     interface: keystone-ldap-backend
     scope: container
+series:
+  - bionic
