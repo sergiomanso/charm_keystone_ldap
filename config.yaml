@@ -1,18 +1,18 @@
 options:
   ldap-url:
     type: string
-    default: 
+    default: "ldap://localhost"
     description: "A short description of the configuration option"
   ldap-user:
     type: string
-    default: 
+    default: "dc=Manager,dc=example,dc=org"
     description: "A short description of the configuration option"
   ldap-password:
     type: string
-    default: 
+    default: "samplepassword"
     description: "A short description of the configuration option"
   ldap-suffix:
     type: string
-    default: 
+    default: "dc=example,dc=org"
     description: "A short description of the configuration option"
 
