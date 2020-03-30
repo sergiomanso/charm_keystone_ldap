@@ -4,7 +4,7 @@
 #  https://github.com/openstack-charmers/cinder-storage-backend-template
 #  https://jaas.ai/tutorials/tutorial-charm-development-part1#7-add-functionality-with-layers
 #  https://charmsreactive.readthedocs.io/en/latest/
-#  
+#  https://docs.openstack.org/charm-guide/latest/charm-anatomy.html
 
 
 import charms_openstack.charm as charm

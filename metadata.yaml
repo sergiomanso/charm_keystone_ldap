@@ -1,4 +1,5 @@
-name: keystone-ldap
+name: charm_keystone_ldap
+display-name: keystone_ldap
 summary: <Fill in summary here>
 maintainer: Sergio Manso <Sergio.Manso@sergiomanso-laptop>
 description: |
