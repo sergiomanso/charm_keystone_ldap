@@ -15,4 +15,7 @@ options:
     type: string
     default: "dc=example,dc=org"
     description: "A short description of the configuration option"
-
+  ldap-domain:
+    type: string
+    default: "admin_domain"
+    description: "A short description of the configuration option"

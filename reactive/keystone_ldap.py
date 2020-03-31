@@ -20,7 +20,8 @@ charm.use_defaults(
     'charm.installed',
     'update-status',
     'upgrade-charm',
-    'keystone-backend.connected', ##need to define this on metadata (why do I need this?)
+    #'keystone-backend.connected', ##need to define this on metadata (why do I need this?)
+    # I don't think I will need this because I'm not implementing an interface
 )
 
 @reactive.when('config.changed') #detects any change on config file
@@ -30,7 +31,7 @@ def config():
     with charm.provide_charm_instance() as keystone_charm:
         ##calls the method from the created charm
         keystone_charm.config_ldap()
-        reactive.set_flag(config.finished)
+        reactive.set_flag('config.finished')
 
 # this will stay here just as an example
 """
